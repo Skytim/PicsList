@@ -2,12 +2,14 @@ import React from 'react';
 
 class SearchBar extends React.Component {
   render() {
-    return <form>
+    return <div className="ui segment">
+    <form  className="ui form">
       <div className="field">
-        <label>Image Search</label>
+        <label>圖片查詢</label>
         <input/>
       </div>
     </form>
+  </div>
   }
 }
 
