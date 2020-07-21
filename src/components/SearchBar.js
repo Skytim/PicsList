@@ -2,7 +2,12 @@ import React from 'react';
 
 class SearchBar extends React.Component {
   render() {
-    return <div>Search bar</div>
+    return <form>
+      <div className="field">
+        <label>Image Search</label>
+        <input/>
+      </div>
+    </form>
   }
 }
 
